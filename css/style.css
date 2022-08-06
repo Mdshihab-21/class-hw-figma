@@ -1,0 +1,223 @@
+/* basic css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-item{
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.button{
+    display: block;
+    width: 140px;
+    background-color: #F8991C;
+    color: #FFFFFF;
+    padding: 14px 0;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.heading h4{
+    font-weight: 700;
+    font-size: 16px;
+    color: #F8991C;
+}
+.heading h1{
+    font-weight: 500;
+    font-size: 28px;
+    color: #000000;
+}
+.justify-center{
+    justify-content: center;
+}
+/* basic css end */
+
+/* nav css start */
+nav .logo{
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    display: inline-block;
+    padding: 50px 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    font-style: normal;
+    text-transform: uppercase;
+    /* text-transform: uppercase; */
+}
+/* nav css end */
+
+/* banner start */
+#banner{
+    background-color:#F8F8F8;
+    height: 660px;
+   
+}
+#banner .banner-cnt{
+    width: 60%;
+}
+#banner .banner-img{
+    width: 40%;
+}
+#banner .banner-cnt h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+}
+#banner .banner-cnt h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+#banner .banner-cnt p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+#banner .banner-cnt a{
+    margin-top: 35px;
+}
+#banner .banner-cnt .socialLinks{
+    margin-top: 170px;
+    position: relative;
+    width: 250px;
+}
+#banner .banner-cnt .socialLinks p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#000000;
+}
+#banner .banner-cnt .socialLinks .socialIcons{
+    position: absolute;
+    top: -16px;
+    right: 36px;
+}
+/* banner end */
+
+/* about start */
+#about{
+    padding: 75px 0;
+}
+#about .about-img{
+    width: 40%;
+    border: 1px solid red;
+}
+#about .about-img img{
+    width: 100%;
+}
+#about .about-cnt{
+    width: 60%;
+    border: 1px solid red;
+}
+#about .about-cnt h1{
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+    margin-top: 15px;
+}
+#about .about-cnt p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* about end */
+
+/* skill section start */
+#skill{
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+#skill .skill-card{
+    width: 33.33%;
+    text-align: center;
+    padding: 0 15px;
+}
+#skill .skill-card img{
+    width: 100%;
+    max-width: 199px;
+    min-width: 100px;
+}
+#skill .skill-card h4{
+    font-weight: 600;
+    font-size: 28px;
+    color: #F8991C;
+    margin-top: -15px;
+}
+#skill .skill-card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+/* skill section end */
+
+/* article section start */
+#article{
+    padding: 50px 0;
+    background-color: #F8F8F8;
+}
+#article .article-card{
+    width: 30%;
+    padding: 0 15px;
+
+}
+#article .article-card .article-cnt{
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+}
+#article .article-card .article-cnt img{
+    width: 100%;
+}
+#article .article-card .article-cnt h4{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin: 10px 0;
+}
+#article .article-card .article-cnt p{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+#article .article-card .article-cnt a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+/* article section end */
